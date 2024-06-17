@@ -33,36 +33,49 @@ body {
 5. media queries tamaños
 
 /_ Teléfonos en orientación vertical _/
+```
 @media (max-width: 320px) {
 /_ Estilos aquí _/
 }
-
+```
 /_ Teléfonos móviles _/
+```
 @media (max-width: 480px) {
 /_ Estilos aquí _/
 }
-
+```
 /_ Dispositivos móviles y tablets pequeñas _/
+```
 @media (max-width: 600px) {
 /_ Estilos aquí _/
 }
-
+```
 /_ Tablets en orientación vertical _/
+```
 @media (max-width: 768px) {
 /_ Estilos aquí _/
 }
-
+```
 /_ Tablets en orientación horizontal y dispositivos pequeños _/
+```
 @media (max-width: 992px) {
 /_ Estilos aquí _/
 }
-
+```
 /_ Dispositivos de escritorio y laptops pequeñas _/
+```
 @media (max-width: 1200px) {
 /_ Estilos aquí _/
 }
-
+```
 /_ Pantallas de escritorio grandes _/
+```
 @media (min-width: 1200px) {
 /_ Estilos aquí _/
 }
+
+```
+
+
+   6. we
+  ```https://caniuse.com/```
