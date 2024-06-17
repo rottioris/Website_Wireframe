@@ -125,6 +125,7 @@ h3 {
   background-size: cover;
   position: relative;
   height: 450px;
+  margin-bottom: 2rem;
 }
 
 .hero-h {
@@ -154,5 +155,7 @@ h3 {
   box-shadow: 0px 3px 14px -7px rgba(0, 0, 0, 0.75);
   background-color: var(--blanco-bg);
   border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 /* sombra */
