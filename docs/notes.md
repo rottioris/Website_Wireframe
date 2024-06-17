@@ -4,10 +4,18 @@
 
 1. box-sizing-border-box
 
-  ```https://www.paulirish.com/2012/box-sizing-border-box-ftw/```
+`https://www.paulirish.com/2012/box-sizing-border-box-ftw/`
+
+/_ apply a natural box layout model to all elements, but allowing components to change _/
+html {
+box-sizing: border-box;
+}
+_, _:before, \*:after {
+box-sizing: inherit;
+}
 
 2. css para rem
-   
+
 ```css
 html {
   font-size: 62.5%;
@@ -19,44 +27,42 @@ body {
 ```
 
 4. Normalize
-  
-   ```https://necolas.github.io/normalize.css/```
-   
+
+   `https://necolas.github.io/normalize.css/`
+
 5. media queries tamaños
-   
-  /* Teléfonos en orientación vertical */
+
+/_ Teléfonos en orientación vertical _/
 @media (max-width: 320px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
 
-/* Teléfonos móviles */
+/_ Teléfonos móviles _/
 @media (max-width: 480px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
 
-/* Dispositivos móviles y tablets pequeñas */
+/_ Dispositivos móviles y tablets pequeñas _/
 @media (max-width: 600px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
 
-/* Tablets en orientación vertical */
+/_ Tablets en orientación vertical _/
 @media (max-width: 768px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
 
-/* Tablets en orientación horizontal y dispositivos pequeños */
+/_ Tablets en orientación horizontal y dispositivos pequeños _/
 @media (max-width: 992px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
 
-/* Dispositivos de escritorio y laptops pequeñas */
+/_ Dispositivos de escritorio y laptops pequeñas _/
 @media (max-width: 1200px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
 
-/* Pantallas de escritorio grandes */
+/_ Pantallas de escritorio grandes _/
 @media (min-width: 1200px) {
-    /* Estilos aquí */
+/_ Estilos aquí _/
 }
-
-
