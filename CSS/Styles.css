@@ -1,0 +1,73 @@
+:root {
+  /* Paleta de colores */
+  --blanco-bg: #ffffff;
+  --gris-icons: #5e5e5e;
+  --button-color: #1b1b1bee;
+  --button-color-hover: #464646ee;
+  --nav-color: #464646ee;
+  --nav-hover: #808080ee;
+}
+
+/* root */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px; /* 1 rem = 10px */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+/* Rest */
+
+h1 {
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.8rem;
+}
+
+/* Text */
+
+.nav-container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-bg {
+  background-color: var(--nav-color);
+}
+
+.nav-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+  .nav-p {
+    flex-direction: row;
+  }
+}
+
+.nav-p a {
+  color: var(--blanco-bg);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.nav-p a:hover {
+  background-color: var(--blanco-bg);
+  color: var(--button-color);
+}
+
+
+/* Nav */
+
