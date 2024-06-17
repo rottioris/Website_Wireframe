@@ -2,7 +2,7 @@
 
 - [Notas CSS]
 
-1. box-sizing-border-box
+## 1. box-sizing-border-box
 
 `https://www.paulirish.com/2012/box-sizing-border-box-ftw/`
 
@@ -14,7 +14,7 @@ _, _:before, \*:after {
 box-sizing: inherit;
 }
 
-2. css para rem
+## 2. css para rem
 
 ```css
 html {
@@ -26,11 +26,11 @@ body {
 }
 ```
 
-4. Normalize
+## 4. Normalize
 
    `https://necolas.github.io/normalize.css/`
 
-5. media queries tamaños
+## 5. media queries tamaños
 
 /_ Teléfonos en orientación vertical _/
 ```
@@ -77,5 +77,5 @@ body {
 ```
 
 
-   6. we
+   ## 6. Caniuse
   ```https://caniuse.com/```
